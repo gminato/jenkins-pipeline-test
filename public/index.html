@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="image">
+        <img height="400" width="250" src="images/dog1.webp" alt="image">
+    </div>
+
+    <form id="dog-info" method="post" style="display: flex;flex-direction: column;width: 500px; margin-top: 20px;">
+        <div style="margin: 20px;">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        </div>
+        <div style="margin: 20px;">
+       <label for="age"> Age </label>
+        <input type="number" name="age" id="age">
+        </div>
+        <div style="margin: 20px;">
+       <label for="breed">Breed</label>
+        <input type="text" name="breed" id="breed">
+ 
+        </div> 
+       <button type="submit" name="submit">update</button>
+    </form>
+</body>
+<script src="script.js"></script>
+    
+</html>
