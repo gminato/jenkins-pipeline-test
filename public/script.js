@@ -5,7 +5,7 @@ const getDogs = async () => {
         let data = await res.json();
         if(res.status === 404) {
             data = {
-                id: Date.now(),
+                id: 1731258698260,
                 name: '',
                 breed: '',
                 age: 0 
